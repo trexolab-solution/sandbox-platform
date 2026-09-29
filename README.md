@@ -26,6 +26,11 @@ trail, and a say over what leaves the box.
 
 ## Screens
 
+The terminal is a real shell in the container, over WebSocket — the prompt below
+is running as `demoworkspace`, not root, which is the isolation doing its job.
+
+![Terminal](docs/images/terminal.png)
+
 Creating a sandbox is four steps: name, environment, resources, services.
 
 ![Create a sandbox](docs/images/create-sandbox.png)
