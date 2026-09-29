@@ -2,6 +2,7 @@
   "name": "sandbox",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "concurrently -n \"next,ws\" -c \"cyan,magenta\" \"next dev -p 1362\" \"cd server && tsx watch --env-file=../.env ws-terminal.ts\"",
     "build": "next build",

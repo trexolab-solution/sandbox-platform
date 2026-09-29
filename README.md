@@ -96,3 +96,7 @@ server/       the terminal WebSocket server
 
 `PROJECT_ANALYSIS.md` goes further: architecture, threat model, and the
 reasoning behind the security layers.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
