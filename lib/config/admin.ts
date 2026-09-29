@@ -3,8 +3,8 @@
  * Centralized admin user configuration
  *
  * The seed credentials come from the environment and have no defaults. They used
- * to be literals here — an email and "Admin@123" — which is a known login for
- * every deployment that has not changed it, and this repository is public.
+ * to be literals in this file, which is a known login for every deployment that
+ * has not changed it, and this repository is public.
  * `/api/internal/seed-admin` refuses to run when the password is unset, so a
  * missing value fails loudly instead of quietly creating a guessable account.
  */
